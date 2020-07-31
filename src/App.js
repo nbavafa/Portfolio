@@ -1,26 +1,52 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./assets/logo.png";
+import "./App.css";
+import Navbar from "./components/navbar/navbar.js";
+import Section from "./components/section/section.js";
+import Footer from "./components/footer/footer.js";
+import Overview from "./components/overview/overview.js"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import dummyText from "./assets/dummytext.js";
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+      <center>
+
+        <Navbar />
+        <Overview
+          id="overview"
+        />
+        <Section
+          title="Section 2"
+          subtitle={dummyText}
+          dark={false}
+          id="about"
+        />
+        <Section
+          title="Section 3"
+          subtitle={dummyText}
+          dark={true}
+          id="portfolio"
+        />
+        <Section
+          title="Section 4"
+          subtitle={dummyText}
+          dark={false}
+          id="resume"
+        />
+        <Section
+          title="Section 5"
+          subtitle={dummyText}
+          dark={true}
+          id="contact"
+        />
+        <Footer/>
+        </center>
+      </div>
+    );
+  }
 }
 
 export default App;
