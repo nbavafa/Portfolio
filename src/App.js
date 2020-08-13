@@ -4,7 +4,10 @@ import "./App.css";
 import Navbar from "./components/navbar/navbar.js";
 import Section from "./components/section/section.js";
 import Footer from "./components/footer/footer.js";
+
 import Overview from "./components/overview/overview.js"
+import About from "./components/about/about.js"
+import Resume from "./components/resume/resume.js"
 
 import dummyText from "./assets/dummytext.js";
 
@@ -18,10 +21,7 @@ class App extends Component {
         <Overview
           id="overview"
         />
-        <Section
-          title="Section 2"
-          subtitle={dummyText}
-          dark={false}
+        <About
           id="about"
         />
         <Section
@@ -30,10 +30,7 @@ class App extends Component {
           dark={true}
           id="portfolio"
         />
-        <Section
-          title="Section 4"
-          subtitle={dummyText}
-          dark={false}
+        <Resume
           id="resume"
         />
         <Section

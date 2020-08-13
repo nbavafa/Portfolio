@@ -6,9 +6,10 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  min-width: 900px
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,7 +18,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -27,14 +28,14 @@
   margin: 0 !important;
   padding: 0 !important;
 }
-.element {
+/* .element {
   height: 1000px;
   background-color: #ededed;
   font-size: 45px;
   border-top: 1px solid #000;
   padding-top: 55px;
   padding-left: 10px;
-}
+} */
 
 .element.no-padding {
   padding-top: 0;
