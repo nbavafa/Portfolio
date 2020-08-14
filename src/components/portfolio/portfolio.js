@@ -4,7 +4,17 @@ import "./styles.css"
 class Portfolio extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {height: 300};
+
+  }
+
+  componentDidMount() {
+    const h1 = document.getElementById('square1').clientHeight;
+    const h2 = document.getElementById('square2').clientHeight;
+    const h3 = document.getElementById('square3').clientHeight;
+    const h4 = document.getElementById('square4').clientHeight;
+
+    this.setState({height: Math.max(h1, Math.max(h2, Math.max(h3,h4)))});
 
   }
 
@@ -18,7 +28,7 @@ class Portfolio extends React.Component {
           <div className='row'>
             <div className='column-port'>
               <div className='left-column'>
-                <div className="square-item">
+                <div className="square-item" id="square1" style={{height: this.state.height}}>
                   <p className='header-style'>Amazon AWS Software Engineer</p>
                   <ul className="square-list">
                     <li className="bullet-port">Part of internal AWS team for ticketing, issue management, and agile process planning tools for all Amazon employees</li>
@@ -31,7 +41,7 @@ class Portfolio extends React.Component {
             </div>
             <div className='column-port'>
               <div className='right-column'>
-                <div className="square-item">
+                <div className="square-item" id="square2" style={{height: this.state.height}}>
                 <p className='header-style'>Academic Networking Mobile Application Project</p>
 
                 <ul className="square-list">
@@ -48,7 +58,7 @@ class Portfolio extends React.Component {
           <div className='row'>
             <div className='column-port'>
               <div className='left-column'>
-                <div className="square-item">
+                <div className="square-item" id="square3" style={{height: this.state.height}}>
                 <p className='header-style'>Bioinformatics Algorithms Research & Publication</p>
 
                 <ul className="square-list">
@@ -64,7 +74,7 @@ class Portfolio extends React.Component {
             </div>
             <div className='column-port'>
               <div className='right-column'>
-                <div className="square-item">
+                <div className="square-item" id="square4" style={{height: this.state.height}}>
                 <p className='header-style'>Influencer Search-Engine Startup Full Stack Developer</p>
 
                 <ul className="square-list">
