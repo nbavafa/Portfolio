@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7c397c1f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.f8eea90f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.f8eea90f.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.56a65d28.chunk.css",
+    "main.js": "/Portfolio/static/js/main.2d92b217.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2d92b217.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
-    "static/js/2.5eef0a2d.chunk.js": "/Portfolio/static/js/2.5eef0a2d.chunk.js",
-    "static/js/2.5eef0a2d.chunk.js.map": "/Portfolio/static/js/2.5eef0a2d.chunk.js.map",
+    "static/js/2.6b0dcdce.chunk.js": "/Portfolio/static/js/2.6b0dcdce.chunk.js",
+    "static/js/2.6b0dcdce.chunk.js.map": "/Portfolio/static/js/2.6b0dcdce.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.d641b4f1774ba2e0cb35c8bdc1bae53a.js": "/Portfolio/precache-manifest.d641b4f1774ba2e0cb35c8bdc1bae53a.js",
+    "precache-manifest.c0fe733a60617140ca381545215701cd.js": "/Portfolio/precache-manifest.c0fe733a60617140ca381545215701cd.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.7c397c1f.chunk.css.map": "/Portfolio/static/css/main.7c397c1f.chunk.css.map",
-    "static/js/2.5eef0a2d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5eef0a2d.chunk.js.LICENSE.txt",
+    "static/css/main.56a65d28.chunk.css.map": "/Portfolio/static/css/main.56a65d28.chunk.css.map",
+    "static/js/2.6b0dcdce.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6b0dcdce.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/Portfolio/static/media/Montserrat-Medium.c8b6e083.ttf",
     "static/media/github.svg": "/Portfolio/static/media/github.4d145252.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.4b475fb3.svg",
-    "static/media/logo.png": "/Portfolio/static/media/logo.e4832c6c.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.fbcb02d2.svg",
     "static/media/mail.svg": "/Portfolio/static/media/mail.bf58874b.svg",
     "static/media/me_cropped.png": "/Portfolio/static/media/me_cropped.7fb70a28.png",
@@ -24,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
-    "static/js/2.5eef0a2d.chunk.js",
-    "static/css/main.7c397c1f.chunk.css",
-    "static/js/main.f8eea90f.chunk.js"
+    "static/js/2.6b0dcdce.chunk.js",
+    "static/css/main.56a65d28.chunk.css",
+    "static/js/main.2d92b217.chunk.js"
   ]
 }
