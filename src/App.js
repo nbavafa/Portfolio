@@ -8,6 +8,8 @@ import Footer from "./components/footer/footer.js";
 import Overview from "./components/overview/overview.js"
 import About from "./components/about/about.js"
 import Resume from "./components/resume/resume.js"
+import Portfolio from "./components/portfolio/portfolio.js"
+import Contact from "./components/contact/contact.js"
 
 import dummyText from "./assets/dummytext.js";
 
@@ -15,32 +17,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <center>
+      <Navbar />
+          <center>
 
-        <Navbar />
-        <Overview
-          id="overview"
-        />
-        <About
-          id="about"
-        />
-        <Section
-          title="Section 3"
-          subtitle={dummyText}
-          dark={true}
-          id="portfolio"
-        />
-        <Resume
-          id="resume"
-        />
-        <Section
-          title="Section 5"
-          subtitle={dummyText}
-          dark={true}
-          id="contact"
-        />
-        <Footer/>
-        </center>
+          <Overview id="overview"/>
+          <About id="about"/>
+          <Portfolio id="portfolio"/>
+          <Resume id="resume"/>
+          <Contact id="contact" />
+          <Footer/>
+
+          </center>
       </div>
     );
   }

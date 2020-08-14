@@ -1,15 +1,16 @@
 import React from "react";
-import resume from "../../assets/resume_png.png"
-
+import text from "./abouttext.js"
 import './styles.css'
 
 export default function About({ id }) {
   return (
     <div id={id}>
-      <div className="about_header">
-        ABOUT
+      <div className="about-wrapper">
+      <div className="header-about">
+        <p> about me</p>
       </div>
-      STUFF ABOUT ME YAY
+      <p className="blurb">{text}</p>
+    </div>
     </div>
   );
 }

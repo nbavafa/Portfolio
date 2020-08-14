@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/resume_png.png"
+import resume from "../../assets/resume.svg"
 import "./styles.css"
 
 class Resume extends React.Component {
@@ -19,24 +19,30 @@ class Resume extends React.Component {
   render() {
     return (
       <div id='resume'>
+        <div className='resume-header-wrapper'>
+          <p className='header-resume'>full resume</p>
+        </div>
+
+        { this.state.isToggleOn ? (
+            <div className='resume-wrapper'>
+            <img src={resume} className='resume'/>
+            </div>
+
+        ) : (
+          ''
+        )}
+
         <div className='buttons'>
           <button onClick={this.handleClick} className='toggle_button'>
-            {this.state.isToggleOn ? 'Hide Resume' : 'Show Resume'}
+            {this.state.isToggleOn ? 'Hide Resume' : 'Show Full Resume'}
           </button>
 
           <a href={require("../../assets/resume.pdf")} download="Nicholas_Bavafa_Resume">
             <div className='download_button'>Download Resume</div>
           </a>
         </div>
-          { this.state.isToggleOn ? (
-              <div className='resume_wrapper'>
-              <img src={resume} className='resume'/>
-              </div>
 
-          ) : (
-            ''
-          )}
-        </div>
+      </div>
     );
   }
 }

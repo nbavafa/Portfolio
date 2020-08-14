@@ -8,7 +8,7 @@ const textStyle = {
   fontSize: '8vw',
   padding: "10px",
   fontFamily: "Montserrat-Light",
-  color: "#6e5a46",
+  color: "black",
   animation: 'focus-in-contract',
   animationDuration: '2s',
   animationDelay: '0s',
@@ -25,9 +25,9 @@ export default function Overview({ id }) {
       <div className='row'>
         <div className='column'>
           <div className='left-column'>
-              <p style={textStyle}>Hello.</p>
+              <p style={textStyle}>hello.</p>
             <div className='line'></div>
-              <p style={textStyle}>I'm Nick</p>
+              <p style={textStyle}>i'm nick</p>
 
           </div>
         </div>
@@ -42,8 +42,8 @@ export default function Overview({ id }) {
       <div className='image_wrapper'>
         <img src={me_cropped} className='picture'/>
         <div className='top-left'>
-          <p style={textStyle}>Hello,</p>
-          <p style={textStyle}>I'm Nick</p>
+          <p className='welcome-font'>— hello,</p>
+          <p className='welcome-font'>i'm nick</p>
 
         </div>
       </div>

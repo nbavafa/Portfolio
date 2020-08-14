@@ -13,6 +13,7 @@
 }
 
 .image_wrapper {
+  background-color: #f0f0f2;
 
 }
 .top-left {
@@ -35,13 +36,17 @@
   flex: 1;
 }
 
-.right-column {
-  background-color: white;
-}
-
-.left-column {
-  background-color: #f0f0f2;
-}
+.welcome-font {
+  text-align: left;
+  font-size: min(8vw, 100px);
+  padding: 10px;
+  font-family: "Montserrat-Light";
+  color: black;
+  animation: focus-in-contract;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+};
 
 .line{
   width: 100%;

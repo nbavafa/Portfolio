@@ -1,0 +1,23 @@
+.header-about {
+  text-align: right;
+  font-size: min(6vw, 60px);
+  padding-right: '15px';
+  font-family: "Montserrat-Light";
+  color: black;
+}
+.about-wrapper {
+  width:90%;
+  padding-bottom: 50px;
+  text-align: left;
+}
+.blurb {
+  font-size: min(2vw, 36px);
+  width: 90%;
+  font-family: "Montserrat-Medium";
+  white-space: pre-wrap;
+  color: #282828;
+  word-spacing: 3px;
+  line-height: 1.3;
+
+
+}

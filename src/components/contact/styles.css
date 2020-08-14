@@ -1,0 +1,106 @@
+.header-contact {
+  text-align: left;
+  font-size: 6vw;
+  padding-left: '15px';
+  font-family: "Montserrat-Light";
+  color: black;
+}
+
+.wrapper-contact {
+  /* margin: 15px; */
+  width:90%;
+}
+.contact-button {
+  color: white;
+  font-family: "Montserrat-Light";
+}
+
+.handle {
+  color: #282828;
+  font-family: "Montserrat-Light";
+}
+.contact-page {
+  background-color: #f0f0f2;
+  /* border-top: 1px solid rgba(0,0,0,.25); */
+  padding-bottom: 50px;
+  padding-top: 2px;
+}
+
+.contact-icon {
+  width: 90%;
+  padding: 10px;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.icon-container {
+  display: inline;
+  display: flex;
+  justify-content: center;
+
+}
+.contact-container-1 {
+  position: relative;
+  width: 15%;
+  margin-right: 30px;
+  padding-right: 8px;
+
+}
+.contact-container-2 {
+  position: relative;
+  width: 15%;
+  margin-left: 30px;
+  padding-right: 8px;
+}
+.contact-container-3 {
+  position: relative;
+  width: 15%;
+  padding-left: 20px;
+  padding-right: 28px;
+
+}
+
+.contact-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact-container-1:hover .contact-icon {
+  opacity: 0.3;
+}
+
+.contact-container-1:hover .contact-middle {
+  opacity: 1;
+}
+
+.contact-container-2:hover .contact-icon {
+  opacity: 0.3;
+}
+
+.contact-container-2:hover .contact-middle {
+  opacity: 1;
+}
+.contact-container-3:hover .contact-icon {
+  opacity: 0.3;
+}
+
+.contact-container-3:hover .contact-middle {
+  opacity: 1;
+}
+
+.contact-text {
+  background-color: #008CBA;
+  color: white;
+  font-size: min(2vw, 18px);
+  padding: 10px;
+  border-radius: 3px;
+  font-family: "Montserrat-Light"
+}
