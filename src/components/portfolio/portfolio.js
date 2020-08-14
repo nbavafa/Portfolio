@@ -4,18 +4,31 @@ import "./styles.css"
 class Portfolio extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {height: 300};
-
+    this.state = {};
+    // this.setHeights = this.setHeights.bind(this);
   }
 
+  setHeights = () => {
+    this.setState({height: undefined});
+    var h1 = document.getElementById('square1').clientHeight;
+    var h2 = document.getElementById('square2').clientHeight;
+    var h3 = document.getElementById('square3').clientHeight;
+    var h4 = document.getElementById('square4').clientHeight;
+
+    var maxHeight = Math.max(h1, h2, h3, h4);
+    this.setState({height: maxHeight});
+  }
+  //
+  // componentDidUpdate() {
+  //   window.addEventListener('resize', this.setHeights);
+  // }
+
+  componentWillUnmount() {
+      window.removeEventListener('resize', this.setHeights);
+    }
   componentDidMount() {
-    const h1 = document.getElementById('square1').clientHeight;
-    const h2 = document.getElementById('square2').clientHeight;
-    const h3 = document.getElementById('square3').clientHeight;
-    const h4 = document.getElementById('square4').clientHeight;
-
-    this.setState({height: Math.max(h1, Math.max(h2, Math.max(h3,h4)))});
-
+    this.setHeights();
+    window.addEventListener('resize', this.setHeights)
   }
 
   render() {
