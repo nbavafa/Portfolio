@@ -25,7 +25,7 @@ class Resume extends React.Component {
 
         { this.state.isToggleOn ? (
             <div className='resume-wrapper'>
-            <img src={resume} className='resume'/>
+            <img src={resume} alt="" className='resume'/>
             </div>
 
         ) : (
@@ -47,27 +47,3 @@ class Resume extends React.Component {
   }
 }
 export default Resume;
-
-
-
-
-// var showResume = false
-//
-//
-//
-//
-// handleClick() {
-//     showResume = !showResume
-//     console.log(showResume)
-// }
-//
-// export default function Resume({ id }) {
-//   return (
-//     <div id={id}>
-//       <button onClick={this.handleClick}>
-//       </button>
-//       <img src={resume} className='resume'/>
-//
-//     </div>
-//   );
-// }

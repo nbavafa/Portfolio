@@ -56,7 +56,7 @@ class Portfolio extends React.Component {
                   <li className="bullet-port">Co-developed statistical samplers on real data-sets using Bayesian, Fourier, and likelihood models</li>
                   <li className="bullet-port">Developed an automated test suite for interoperability</li>
                   <li className="bullet-port">Analyzed and packaged code to satisfy Julia metadata compliance</li>
-                  <a href="https://academic.oup.com/nar/article/47/18/e104/5550323" className='paper-button' target="_blank">View Published Paper</a>
+                  <a href="https://academic.oup.com/nar/article/47/18/e104/5550323" className='paper-button'  rel="noopener noreferrer" target="_blank">View Published Paper</a>
                 </ul>
 
                 </div>

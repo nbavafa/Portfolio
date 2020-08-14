@@ -33,14 +33,14 @@ export default function Overview({ id }) {
         </div>
         <div className='column'>
           <div className='right-column'>
-            <img src={me} className='picture_column'/>
+            <img src={me} alt="" className='picture_column'/>
           </div>
         </div>
       </div>
       </div>
     ) : (
       <div className='image_wrapper'>
-        <img src={me_cropped} className='picture'/>
+        <img src={me_cropped} alt="" className='picture'/>
         <div className='top-left'>
           <p className='welcome-font'>— hello,</p>
           <p className='welcome-font'>i'm nick</p>

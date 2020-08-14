@@ -18,27 +18,27 @@ class Contact extends React.Component {
           <p className="header-contact">contact me</p>
           <div className="icon-container">
             <div className="contact-container-1">
-              <img src={linkedin} className='contact-icon'/>
+              <img src={linkedin} alt="" className='contact-icon'/>
               <div className="contact-middle">
                 <div className="contact-text">
-                  <a href="https://www.linkedin.com/in/nbavafa/" className='contact-button' target="_blank">Connect</a>
+                  <a href="https://www.linkedin.com/in/nbavafa/" className='contact-button'  rel="noopener noreferrer" target="_blank">Connect</a>
                 </div>
               </div>
               <p className="handle">@nbavafa</p>
             </div>
             <div className="contact-container-3">
-              <img src={email} className='contact-icon'/>
+              <img src={email} alt="" className='contact-icon'/>
               <div className="contact-middle">
                 <div className="contact-text">
-                <a href="mailto:nbavafa@gmail.com" className='contact-button' target="_blank">Mail</a>
+                <a href="mailto:nbavafa@gmail.com" className='contact-button'  rel="noopener noreferrer" target="_blank">Mail</a>
                 </div>
               </div>
             </div>
             <div className="contact-container-2">
-              <img src={github} className='contact-icon'/>
+              <img src={github} alt="" className='contact-icon'/>
               <div className="contact-middle">
                 <div className="contact-text">
-                  <a href="https://github.com/nbavafa" className='contact-button' target="_blank">View</a>
+                  <a href="https://github.com/nbavafa" className='contact-button'  rel="noopener noreferrer" target="_blank">View</a>
                 </div>
               </div>
               <p className="handle">@nbavafa</p>
